@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<emitter imageName="" name="Blood particle">
+    <spawnInterval enabled="true" max="8.0" min="5.0"/>
+    <spawnCount enabled="true" max="110.0" min="10.0"/>
+    <initialLife enabled="false" max="100.0" min="1000.0"/>
+    <initialSize enabled="true" max="1.0" min="1.0"/>
+    <xOffset enabled="true" max="1.0" min="-1.0"/>
+    <yOffset enabled="true" max="1.0" min="-1.0"/>
+    <initalDistance enabled="true" max="0.2" min="0.0"/>
+    <speed enabled="true" max="420.0" min="350.0"/>
+    <length enabled="true" max="100.0" min="100.0"/>
+    <spread value="6.0"/>
+    <startAlpha value="255.0"/>
+    <growthFactor value="1.5"/>
+    <endAlpha value="255.0"/>
+    <color>
+        <step b="0.05" g="0.05" offset="0.0" r="1"/>
+        <step b="0.2" g="0.2" offset="0.4" r="1"/>
+    </color>
+</emitter>
